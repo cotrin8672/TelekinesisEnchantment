@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/TelekinesisEnchantment.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/TelekinesisEnchantment.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/TelekinesisEnchantment.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/TelekinesisEnchantment.common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/TelekinesisEnchantment.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/TelekinesisEnchantment.common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/TelekinesisEnchantment.fabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/TelekinesisEnchantment.fabric.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/TelekinesisEnchantment.fabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/TelekinesisEnchantment.fabric.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/TelekinesisEnchantment.neoforge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/TelekinesisEnchantment.neoforge.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/TelekinesisEnchantment.neoforge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/TelekinesisEnchantment.neoforge.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/templatemod.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/templatemod.common.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/templatemod.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/templatemod.common.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/templatemod.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/templatemod.common.test.iml" />

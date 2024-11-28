@@ -8,8 +8,7 @@ pluginManagement {
     }
 }
 
-val modId: String by settings
-rootProject.name = modId
+rootProject.name = "TelekinesisEnchantment"
 
 include(":common")
 include(":fabric")

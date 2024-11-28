@@ -86,6 +86,12 @@ repositories {
     }
 }
 
+sourceSets {
+    main {
+        resources.srcDir(project(":common").file("src/main/resources"))
+    }
+}
+
 @Suppress("UnstableApiUsage")
 dependencies {
     minecraft(libs.minecraft)
@@ -131,12 +137,6 @@ tasks.withType<ProcessResources>().configureEach {
     filesMatching("META-INF/neoforge.mods.toml") {
         expand(replaceProperties)
     }
-
-    val commonResourcesDir = project(":common").layout.projectDirectory.dir("src/main/resources")
-    from(commonResourcesDir) {
-        include("logo.png")
-    }
-    into("src/main/resources")
 }
 
 java {
