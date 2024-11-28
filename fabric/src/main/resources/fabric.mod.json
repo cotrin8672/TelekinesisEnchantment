@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "${modId}",
+  "version": "${modVersion}",
+  "name": "${modName}",
+  "description": "${modDescription}",
+  "authors": [
+    "${modAuthors}"
+  ],
+  "contact": {
+    "sources": "https://github.com/"
+  },
+  "license": "${modLicense}",
+  "icon": "logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "io.github.cotrin8672.fabric.TemplateModFabric"
+      }
+    ],
+    "client": [
+      {
+        "adapter": "kotlin",
+        "value": "io.github.cotrin8672.fabric.client.TemplateModFabricClient"
+      }
+    ]
+  },
+  "mixins": [
+    "${modId}.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${fabricVersion}",
+    "minecraft": "~${minecraftVersion}",
+    "java": ">=21",
+    "architectury": ">=${architecturyVersion}",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

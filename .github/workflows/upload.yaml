@@ -1,0 +1,38 @@
+name: Upload to CurseForge and Modrinth
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'adopt'
+          java-version: '21'
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v4
+
+      - name: Build jar
+        run: |
+          chmod +x ./gradlew
+          ./gradlew build
+
+      - name: Upload NeoForge version to CurseForge
+        run: ./gradlew :neoforge:publishCurseforge
+
+      - name: Upload Fabric version to CurseForge
+        run: ./gradlew :fabric:publishCurseforge
+
+      - name: Upload NeoForge version to Modrinth
+        run: ./gradlew :neoforge:publishModrinth
+
+      - name: Upload Fabric version to Modrinth
+        run: ./gradlew :fabric:publishModrinth
