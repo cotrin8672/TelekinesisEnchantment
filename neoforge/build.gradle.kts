@@ -92,12 +92,11 @@ sourceSets {
     }
 }
 
-@Suppress("UnstableApiUsage")
 dependencies {
     minecraft(libs.minecraft)
     mappings(loom.layered {
-        mappings("net.fabricmc:yarn:${libs.versions.yarnFabric.get()}")
-        mappings(libs.yarn.neoforge)
+        officialMojangMappings()
+        parchment("org.parchmentmc.data:parchment-${libs.versions.minecraft.get()}:2024.11.10@zip")
     })
 
     neoForge(libs.neoforge)

@@ -84,12 +84,11 @@ sourceSets {
     }
 }
 
-@Suppress("UnstableApiUsage")
-        dependencies {
+dependencies {
     minecraft(libs.minecraft)
     mappings(loom.layered {
-        mappings("net.fabricmc:yarn:${libs.versions.yarnFabric.get()}")
-        mappings(libs.yarn.neoforge)
+        officialMojangMappings()
+        parchment("org.parchmentmc.data:parchment-${libs.versions.minecraft.get()}:2024.11.10@zip")
     })
 
     modImplementation(libs.fabric.loader)
@@ -110,15 +109,15 @@ tasks.withType<ProcessResources>().configureEach {
     val modDescription: String by project
 
     val replaceProperties = mapOf(
-            "minecraftVersion" to libs.versions.minecraft.get(),
-            "fabricVersion" to libs.versions.fabricLoader.get(),
-            "architecturyVersion" to libs.versions.architecturyApi.get(),
-            "modId" to modId,
-            "modName" to modName,
-            "modLicense" to modLicense,
-            "modVersion" to modVersion,
-            "modAuthors" to modAuthors,
-            "modDescription" to modDescription,
+        "minecraftVersion" to libs.versions.minecraft.get(),
+        "fabricVersion" to libs.versions.fabricLoader.get(),
+        "architecturyVersion" to libs.versions.architecturyApi.get(),
+        "modId" to modId,
+        "modName" to modName,
+        "modLicense" to modLicense,
+        "modVersion" to modVersion,
+        "modAuthors" to modAuthors,
+        "modDescription" to modDescription,
     )
     inputs.properties(replaceProperties)
 
