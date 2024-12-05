@@ -17,13 +17,13 @@
     "main": [
       {
         "adapter": "kotlin",
-        "value": "TelekinesisModFabric"
+        "value": "io.github.cotrin8672.fabric.TelekinesisModFabric"
       }
     ],
     "client": [
       {
         "adapter": "kotlin",
-        "value": "TelekinesisModFabricClient"
+        "value": "io.github.cotrin8672.fabric.client.TelekinesisModFabricClient"
       }
     ]
   },

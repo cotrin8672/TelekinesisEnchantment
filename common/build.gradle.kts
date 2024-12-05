@@ -8,6 +8,7 @@ architectury {
     common("neoforge", "fabric")
 }
 
+@Suppress("UnstableApiUsage")
 dependencies {
     minecraft(libs.minecraft)
     mappings(loom.layered {
@@ -15,8 +16,7 @@ dependencies {
         parchment("org.parchmentmc.data:parchment-${libs.versions.minecraft.get()}:2024.11.10@zip")
     })
 
-    modImplementation(libs.fabric.loader)
-    modImplementation(libs.architectury)
+    modCompileOnly(libs.fabric.loader)
 }
 
 java {

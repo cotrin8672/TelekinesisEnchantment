@@ -2,7 +2,6 @@ import com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar
 import com.hypherionmc.modpublisher.properties.CurseEnvironment
 import com.hypherionmc.modpublisher.properties.ModLoader
 import net.fabricmc.loom.task.RemapJarTask
-import kotlin.Suppress
 
 plugins {
     alias(libs.plugins.loom)
@@ -94,7 +93,6 @@ dependencies {
     modImplementation(libs.fabric.loader)
     modImplementation(libs.fabric.api)
     modImplementation(libs.fabric.kotlin)
-    modImplementation(libs.architectury.fabric)
 
     "common"(project(path = ":common", configuration = "namedElements")) { isTransitive = false }
     "shadowBundle"(project(path = ":common", configuration = "transformProductionFabric"))
