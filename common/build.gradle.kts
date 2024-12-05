@@ -8,6 +8,13 @@ architectury {
     common("neoforge", "fabric")
 }
 
+base {
+    val modId: String by project
+    val modVersion: String by project
+    archivesName = modId
+    version = "$modVersion-mc${libs.versions.minecraft.get()}-${project.name}"
+}
+
 @Suppress("UnstableApiUsage")
 dependencies {
     minecraft(libs.minecraft)
