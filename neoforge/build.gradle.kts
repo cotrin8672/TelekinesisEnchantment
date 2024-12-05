@@ -16,6 +16,13 @@ architectury {
     neoForge()
 }
 
+base {
+    val modId: String by project
+    val modVersion: String by project
+    archivesName = modId
+    version = "$modVersion-mc${libs.versions.minecraft.get()}-${project.name}"
+}
+
 publisher {
     val modVersion: String by project
     val modId: String by project
@@ -26,18 +33,17 @@ publisher {
         modrinth(System.getenv("MODRINTH_API_KEY"))
     }
 
-    // TODO: set project id
-    curseID.set("")
-    modrinthID.set("")
+    curseID.set("1153921")
+    modrinthID.set("4FNR0Qmb")
 
     versionType.set("release")
     changelog.set(file("../changelog.md"))
-    version.set(modVersion)
-    displayName.set("$modName-${project.name}-$modVersion")
+    version.set(project.version.toString())
+    displayName.set("$modName ${project.version}")
     gameVersions.set(listOf(libs.versions.minecraft.get()))
     setLoaders(ModLoader.NEOFORGE)
     setCurseEnvironment(CurseEnvironment.BOTH)
-    artifact.set("build/libs/$modId-${project.name}-$modVersion.jar")
+    artifact.set("build/libs/${base.archivesName}-${project.version}.jar")
 
     curseDepends {
         required("kotlin-for-forge")
@@ -46,12 +52,6 @@ publisher {
     modrinthDepends {
         required("kotlin-for-forge")
     }
-}
-
-base {
-    val modId: String by project
-
-    archivesName = "$modId-neoforge"
 }
 
 configurations {

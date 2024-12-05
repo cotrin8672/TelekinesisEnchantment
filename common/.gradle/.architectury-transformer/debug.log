@@ -1,38 +1,19 @@
 [Architectury Transformer DEBUG] 
 [Architectury Transformer DEBUG] ============================
-[Architectury Transformer DEBUG] Transforming from C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\devlibs\common-1.0.0-dev.jar to C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\libs\common-1.0.0-transformProductionFabric.jar
+[Architectury Transformer DEBUG] Transforming from C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\devlibs\common-dev.jar to C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\libs\common-transformProductionFabric.jar
 [Architectury Transformer DEBUG] ============================
 [Architectury Transformer DEBUG] 
-[Architectury Transformer DEBUG] Transforming 5 transformer(s) from C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\devlibs\common-1.0.0-dev.jar to C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\libs\common-1.0.0-transformProductionFabric.jar: 
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapMixinVariables@6018dac5
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@6166c850
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@4b417ea2
+[Architectury Transformer DEBUG] Transforming 5 transformer(s) from C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\devlibs\common-dev.jar to C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\libs\common-transformProductionFabric.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapMixinVariables@271dc608
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@de4ff18
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@7770a7a9
 [Architectury Transformer DEBUG]  - AddRefmapName(enabled=() -> kotlin.Boolean)
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@4dc8b847
-[Architectury Transformer DEBUG] Transforming from C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\devlibs\common-1.0.0-dev.jar to C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\libs\common-1.0.0-transformProductionFabric.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing io/github/cotrin8672/TelekinesisMod with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing io/github/cotrin8672/effect/TelekinesisEnchantmentEffect with maxs=true frames=true
-[Architectury Transformer DEBUG] Checking whether /telekinesisenchantment.mixins.json is a mixin config.
-[Architectury Transformer DEBUG] Found mixin config(s): /telekinesisenchantment.mixins.json
-[Architectury Transformer DEBUG] Injecting common-common-refmap.json to /telekinesisenchantment.mixins.json
-[Architectury Transformer DEBUG] Closed File Systems for C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\libs\common-1.0.0-transformProductionFabric.jar
-[Architectury Transformer] Transformed jar with 5 transformer(s) in 130.8 ms
-[Architectury Transformer DEBUG] 
-[Architectury Transformer DEBUG] ============================
-[Architectury Transformer DEBUG] Transforming from C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\devlibs\common-1.0.0-dev.jar to C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\libs\common-1.0.0-transformProductionNeoForge.jar
-[Architectury Transformer DEBUG] ============================
-[Architectury Transformer DEBUG] 
-[Architectury Transformer DEBUG] Transforming 5 transformer(s) from C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\devlibs\common-1.0.0-dev.jar to C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\libs\common-1.0.0-transformProductionNeoForge.jar: 
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@41380a53
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@154bca40
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@7e437bb1
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeAnnotations@336d4838
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment@3286a694
-[Architectury Transformer DEBUG] Transforming from C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\devlibs\common-1.0.0-dev.jar to C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\libs\common-1.0.0-transformProductionNeoForge.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@5c4b80e1
+[Architectury Transformer DEBUG] Transforming from C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\devlibs\common-dev.jar to C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\libs\common-transformProductionFabric.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG] Reading mixin mappings file: C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\loom-cache\mixin-map-loom.mappings.1_21.layered+hash.289564715-v2.main.tiny
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x000001f1c1065408@3f83bfb3
-[Architectury Transformer DEBUG] Provided 61 classpath jar(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.shadowed.impl.dev.architectury.tinyremapper.TinyUtils$$Lambda/0x000001d3db9432e0@4bc1bf1d
+[Architectury Transformer DEBUG] Provided 60 classpath jar(s):
 [Architectury Transformer DEBUG]  - C:\Users\gummy\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\2.0.21\618b539767b4899b4660a83006e052b63f1db551\kotlin-stdlib-2.0.21.jar
 [Architectury Transformer DEBUG]  - C:\Users\gummy\.gradle\caches\modules-2\files-2.1\dev.architectury\architectury-injectables\1.0.10\62db2a366d662606d1b23ad02ccc3212ed37ec3\architectury-injectables-1.0.10.jar
 [Architectury Transformer DEBUG]  - C:\Users\gummy\.gradle\caches\modules-2\files-2.1\net.fabricmc\fabric-loader\0.16.9\7eaa23079ac1569963e488054db124c7eb984f05\fabric-loader-0.16.9.jar
@@ -90,57 +71,39 @@
 [Architectury Transformer DEBUG]  - C:\Users\gummy\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.3\29589b5f87ed335a6c7e7ee6a5775f81f97ecb84\lwjgl-3.3.3.jar
 [Architectury Transformer DEBUG]  - C:\Users\gummy\.gradle\caches\modules-2\files-2.1\org.lz4\lz4-java\1.8.0\4b986a99445e49ea5fbf5d149c4b63f6ed6c6780\lz4-java-1.8.0.jar
 [Architectury Transformer DEBUG]  - C:\Users\gummy\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\2.0.9\7cf2726fdcfbc8610f9a71fb3ed639871f315340\slf4j-api-2.0.9.jar
-[Architectury Transformer DEBUG]  - C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\.gradle\loom-cache\minecraftMaven\net\minecraft\minecraft-merged-2d465ab16d\1.21-loom.mappings.1_21.layered+hash.289564715-v2\minecraft-merged-2d465ab16d-1.21-loom.mappings.1_21.layered+hash.289564715-v2.jar
+[Architectury Transformer DEBUG]  - C:\Users\gummy\.gradle\caches\fabric-loom\minecraftMaven\net\minecraft\minecraft-merged\1.21-loom.mappings.1_21.layered+hash.289564715-v2\minecraft-merged-1.21-loom.mappings.1_21.layered+hash.289564715-v2.jar
 [Architectury Transformer DEBUG]  - C:\Users\gummy\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-epoll\4.1.97.Final\54188f271e388e7f313aea995e82f58ce2cdb809\netty-transport-native-epoll-4.1.97.Final-linux-x86_64.jar
 [Architectury Transformer DEBUG]  - C:\Users\gummy\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-epoll\4.1.97.Final\5514744c588190ffda076b35a9b8c9f24946a960\netty-transport-native-epoll-4.1.97.Final-linux-aarch_64.jar
-[Architectury Transformer DEBUG]  - C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\.gradle\loom-cache\remapped_mods\loom_mappings_1_21_layered_hash_289564715_v2\dev\architectury\architectury\13.0.2\architectury-13.0.2.jar
-[Architectury Transformer] Read classpath in 1.196 s
+[Architectury Transformer] Read classpath in 1.248 s
 [Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
-[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing io/github/cotrin8672/TelekinesisMod with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing io/github/cotrin8672/effect/TelekinesisEnchantmentEffect with maxs=true frames=true
-[Architectury Transformer DEBUG] Closed File Systems for C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\libs\common-1.0.0-transformProductionNeoForge.jar
-[Architectury Transformer] Transformed jar with 5 transformer(s) in 1.581 s
-[Architectury Transformer DEBUG] Closed File Systems for C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\libs\common-1.0.0.jar
-[Architectury Transformer DEBUG] 
-[Architectury Transformer DEBUG] ============================
-[Architectury Transformer DEBUG] Transforming from C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\devlibs\common-1.0.0-dev.jar to C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\libs\common-1.0.0-transformProductionFabric.jar
-[Architectury Transformer DEBUG] ============================
-[Architectury Transformer DEBUG] 
-[Architectury Transformer DEBUG] Transforming 5 transformer(s) from C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\devlibs\common-1.0.0-dev.jar to C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\libs\common-1.0.0-transformProductionFabric.jar: 
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapMixinVariables@74af8c30
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@4e57cd24
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@509ec639
-[Architectury Transformer DEBUG]  - AddRefmapName(enabled=() -> kotlin.Boolean)
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@14232c78
-[Architectury Transformer DEBUG] Transforming from C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\devlibs\common-1.0.0-dev.jar to C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\libs\common-1.0.0-transformProductionFabric.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing io/github/cotrin8672/TelekinesisMod with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing io/github/cotrin8672/registry/ModEnchantments with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing io/github/cotrin8672/mixinimpl/LootTableMixinImpl with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing io/github/cotrin8672/extension/EnchantmentExtensionKt with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing io/github/cotrin8672/effect/TelekinesisEnchantmentEffect with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing io/github/cotrin8672/extension/VectorExtensionKt with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing io/github/cotrin8672/mixin/LootTableMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Checking whether /telekinesisenchantment.mixins.json is a mixin config.
+[Architectury Transformer DEBUG] Checking whether /common-common-refmap.json is a mixin config.
 [Architectury Transformer DEBUG] Found mixin config(s): /telekinesisenchantment.mixins.json
 [Architectury Transformer DEBUG] Injecting common-common-refmap.json to /telekinesisenchantment.mixins.json
-[Architectury Transformer DEBUG] Closed File Systems for C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\libs\common-1.0.0-transformProductionFabric.jar
-[Architectury Transformer] Transformed jar with 5 transformer(s) in 12.29 ms
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\libs\common-transformProductionFabric.jar
+[Architectury Transformer] Transformed jar with 5 transformer(s) in 1.653 s
 [Architectury Transformer DEBUG] 
 [Architectury Transformer DEBUG] ============================
-[Architectury Transformer DEBUG] Transforming from C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\devlibs\common-1.0.0-dev.jar to C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\libs\common-1.0.0-transformProductionNeoForge.jar
+[Architectury Transformer DEBUG] Transforming from C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\devlibs\common-dev.jar to C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\libs\common-transformProductionNeoForge.jar
 [Architectury Transformer DEBUG] ============================
 [Architectury Transformer DEBUG] 
-[Architectury Transformer DEBUG] Transforming 5 transformer(s) from C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\devlibs\common-1.0.0-dev.jar to C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\libs\common-1.0.0-transformProductionNeoForge.jar: 
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@6ff355e
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@40cd97e8
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@4c632c7e
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeAnnotations@35c3e31b
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment@4a697538
-[Architectury Transformer DEBUG] Transforming from C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\devlibs\common-1.0.0-dev.jar to C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\libs\common-1.0.0-transformProductionNeoForge.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG] Transforming 5 transformer(s) from C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\devlibs\common-dev.jar to C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\libs\common-transformProductionNeoForge.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@205bc92f
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@4f17841a
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@5b16e700
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeAnnotations@51ff110c
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment@2f13b8ad
+[Architectury Transformer DEBUG] Transforming from C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\devlibs\common-dev.jar to C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\libs\common-transformProductionNeoForge.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x000001f1c1065408@3f83bfb3
-[Architectury Transformer DEBUG] Provided 61 classpath jar(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformNeoForgeEnvironment$$Lambda/0x000001d3dbbe4dc0@30150c7c
+[Architectury Transformer DEBUG] Provided 60 classpath jar(s):
 [Architectury Transformer DEBUG]  - C:\Users\gummy\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\2.0.21\618b539767b4899b4660a83006e052b63f1db551\kotlin-stdlib-2.0.21.jar
 [Architectury Transformer DEBUG]  - C:\Users\gummy\.gradle\caches\modules-2\files-2.1\dev.architectury\architectury-injectables\1.0.10\62db2a366d662606d1b23ad02ccc3212ed37ec3\architectury-injectables-1.0.10.jar
 [Architectury Transformer DEBUG]  - C:\Users\gummy\.gradle\caches\modules-2\files-2.1\net.fabricmc\fabric-loader\0.16.9\7eaa23079ac1569963e488054db124c7eb984f05\fabric-loader-0.16.9.jar
@@ -198,19 +161,20 @@
 [Architectury Transformer DEBUG]  - C:\Users\gummy\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.3\29589b5f87ed335a6c7e7ee6a5775f81f97ecb84\lwjgl-3.3.3.jar
 [Architectury Transformer DEBUG]  - C:\Users\gummy\.gradle\caches\modules-2\files-2.1\org.lz4\lz4-java\1.8.0\4b986a99445e49ea5fbf5d149c4b63f6ed6c6780\lz4-java-1.8.0.jar
 [Architectury Transformer DEBUG]  - C:\Users\gummy\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\2.0.9\7cf2726fdcfbc8610f9a71fb3ed639871f315340\slf4j-api-2.0.9.jar
-[Architectury Transformer DEBUG]  - C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\.gradle\loom-cache\minecraftMaven\net\minecraft\minecraft-merged-2d465ab16d\1.21-loom.mappings.1_21.layered+hash.289564715-v2\minecraft-merged-2d465ab16d-1.21-loom.mappings.1_21.layered+hash.289564715-v2.jar
+[Architectury Transformer DEBUG]  - C:\Users\gummy\.gradle\caches\fabric-loom\minecraftMaven\net\minecraft\minecraft-merged\1.21-loom.mappings.1_21.layered+hash.289564715-v2\minecraft-merged-1.21-loom.mappings.1_21.layered+hash.289564715-v2.jar
 [Architectury Transformer DEBUG]  - C:\Users\gummy\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-epoll\4.1.97.Final\54188f271e388e7f313aea995e82f58ce2cdb809\netty-transport-native-epoll-4.1.97.Final-linux-x86_64.jar
 [Architectury Transformer DEBUG]  - C:\Users\gummy\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-epoll\4.1.97.Final\5514744c588190ffda076b35a9b8c9f24946a960\netty-transport-native-epoll-4.1.97.Final-linux-aarch_64.jar
-[Architectury Transformer DEBUG]  - C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\.gradle\loom-cache\remapped_mods\loom_mappings_1_21_layered_hash_289564715_v2\dev\architectury\architectury\13.0.2\architectury-13.0.2.jar
-[Architectury Transformer] Read classpath in 1.394 s
+[Architectury Transformer] Read classpath in 1.487 s
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/neoforged/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/neoforged/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing io/github/cotrin8672/TelekinesisMod with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing io/github/cotrin8672/registry/ModEnchantments with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing io/github/cotrin8672/mixinimpl/LootTableMixinImpl with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing io/github/cotrin8672/extension/EnchantmentExtensionKt with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing io/github/cotrin8672/effect/TelekinesisEnchantmentEffect with maxs=true frames=true
-[Architectury Transformer DEBUG] Closed File Systems for C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\libs\common-1.0.0-transformProductionNeoForge.jar
-[Architectury Transformer] Transformed jar with 5 transformer(s) in 1.603 s
-[Architectury Transformer DEBUG] Closed File Systems for C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\libs\common-1.0.0.jar
+[Architectury Transformer DEBUG] Writing io/github/cotrin8672/extension/VectorExtensionKt with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing io/github/cotrin8672/mixin/LootTableMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\libs\common-transformProductionNeoForge.jar
+[Architectury Transformer] Transformed jar with 5 transformer(s) in 1.704 s
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\gummy\IdeaProjects\TelekinesisEnchantment\common\build\libs\common.jar

@@ -21,5 +21,4 @@ java {
 
 allprojects {
     group = modGroupId
-    version = modVersion
 }
