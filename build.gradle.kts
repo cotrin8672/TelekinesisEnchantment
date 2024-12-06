@@ -19,6 +19,6 @@ java {
     targetCompatibility = JavaVersion.VERSION_21
 }
 
-allprojects {
-    group = modGroupId
-}
+//allprojects {
+//    group = modGroupId
+//}
