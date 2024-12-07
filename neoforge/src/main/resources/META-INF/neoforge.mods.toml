@@ -27,5 +27,12 @@ versionRange = "${minecraftVersionRange}"
 ordering = "NONE"
 side = "BOTH"
 
+[[dependencies.${modId}]]
+modId = "kotlinforforge"
+type = "required"
+versionRange = "${loaderVersionRange}"
+ordering = "NONE"
+side = "BOTH"
+
 [[mixins]]
 config = "${modId}-common.mixins.json"

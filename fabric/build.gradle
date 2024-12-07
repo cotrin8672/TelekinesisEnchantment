@@ -52,6 +52,7 @@ processResources {
             minecraftVersion: libs.versions.minecraft.get(),
             fabricVersion: libs.versions.fabricLoader.get(),
             architecturyVersion: libs.versions.architecturyApi.get(),
+            fabricKotlinVersion: libs.versions.fabricKotlin.get(),
             modId: rootProject.modId,
             modName: rootProject.modName,
             modLicense: rootProject.modLicense,

@@ -34,7 +34,8 @@
     "fabricloader": ">=${fabricVersion}",
     "minecraft": "~${minecraftVersion}",
     "java": ">=21",
-    "fabric-api": "*"
+    "fabric-api": "*",
+    "fabric-language-kotlin": ">=${fabricKotlinVersion}"
   },
   "suggests": {
     "another-mod": "*"
