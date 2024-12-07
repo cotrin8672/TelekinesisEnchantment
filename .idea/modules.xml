@@ -2,23 +2,20 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TelekinesisEnchantment.iml" filepath="$PROJECT_DIR$/.idea/modules/TelekinesisEnchantment.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/TelekinesisEnchantment.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/TelekinesisEnchantment.common.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/TelekinesisEnchantment.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/TelekinesisEnchantment.common.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/TelekinesisEnchantment.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/TelekinesisEnchantment.common.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/TelekinesisEnchantment.fabric.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/TelekinesisEnchantment.fabric.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/TelekinesisEnchantment.fabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/TelekinesisEnchantment.fabric.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/TelekinesisEnchantment.fabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/TelekinesisEnchantment.fabric.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/TelekinesisEnchantment.neoforge.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/TelekinesisEnchantment.neoforge.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/TelekinesisEnchantment.neoforge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/TelekinesisEnchantment.neoforge.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/TelekinesisEnchantment.neoforge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/TelekinesisEnchantment.neoforge.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/templatemod.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/templatemod.common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/templatemod.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/templatemod.common.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/templatemod.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/templatemod.common.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/templatemod.fabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/templatemod.fabric.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/templatemod.fabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/templatemod.fabric.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/templatemod.neoforge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/templatemod.neoforge.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/templatemod.neoforge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/templatemod.neoforge.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/testmod.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/testmod.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/testmod.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/testmod.common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/testmod.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/testmod.common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/testmod.fabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/testmod.fabric.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/testmod.fabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/testmod.fabric.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/testmod.neoforge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/testmod.neoforge.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/testmod.neoforge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/testmod.neoforge.test.iml" />
     </modules>
   </component>
 </project>

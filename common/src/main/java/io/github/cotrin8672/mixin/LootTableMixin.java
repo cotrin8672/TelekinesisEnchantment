@@ -21,7 +21,7 @@ import java.util.function.Consumer;
 @Mixin(LootTable.class)
 public abstract class LootTableMixin {
     @Shadow
-    public abstract void getRandomItemsRaw(LootContext context, Consumer<ItemStack> output);
+    public abstract void getRandomItemsRaw(LootContext lootContext, Consumer<ItemStack> consumer);
 
     @Shadow
     @Final

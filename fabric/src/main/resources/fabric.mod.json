@@ -28,13 +28,12 @@
     ]
   },
   "mixins": [
-    "${modId}.mixins.json"
+    "${modId}-common.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${fabricVersion}",
     "minecraft": "~${minecraftVersion}",
     "java": ">=21",
-    "architectury": ">=${architecturyVersion}",
     "fabric-api": "*"
   },
   "suggests": {

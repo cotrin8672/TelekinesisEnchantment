@@ -6,8 +6,6 @@ architecturyRange = "[13.0.2,)"
 shadow = "8.1.1"
 minecraft = "1.21"
 minecraftRange = "[1.21,)"
-yarnFabric = "1.21+build.1:v2"
-yarnNeoforge = "1.21+build.4"
 neoforge = "21.0.167"
 neoforgeRange = "[21.0,)"
 fabricLoader = "0.16.9"
@@ -20,15 +18,13 @@ modPublisher = "2.1.6"
 
 [libraries]
 minecraft = { module = "net.minecraft:minecraft", version.ref = "minecraft" }
-yarn-fabric = { module = "net.fabricmc:yarn", version.ref = "yarnFabric" }
-yarn-neoforge = { module = "dev.architectury:yarn-mappings-patch-neoforge", version.ref = "yarnNeoforge" }
 neoforge = { module = "net.neoforged:neoforge", version.ref = "neoforge" }
-architectury-neoforge = { module = "dev.architectury:architectury-neoforge", version.ref = "architecturyApi" }
 fabric-loader = { module = "net.fabricmc:fabric-loader", version.ref = "fabricLoader" }
 fabric-api = { module = "net.fabricmc.fabric-api:fabric-api", version.ref = "fabricApi" }
 fabric-kotlin = { module = "net.fabricmc:fabric-language-kotlin", version.ref = "fabricKotlin" }
-architectury-fabric = { module = "dev.architectury:architectury-fabric", version.ref = "architecturyApi" }
 architectury = { module = "dev.architectury:architectury", version.ref = "architecturyApi" }
+architectury-fabric = { module = "dev.architectury:architectury-fabric", version.ref = "architecturyApi" }
+architectury-neoforge = { module = "dev.architectury:architectury-neoforge", version.ref = "architecturyApi" }
 kotlinforforge = { module = "thedarkcolour:kotlinforforge-neoforge", version.ref = "kotlinforforge" }
 
 [plugins]

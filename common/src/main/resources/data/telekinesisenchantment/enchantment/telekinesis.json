@@ -16,5 +16,6 @@
     "mainhand"
   ],
   "supported_items": "#telekinesisenchantment:enchantable/telekinesis_target",
+  "primary_items": "#telekinesisenchantment:enchantable/telekinesis_target",
   "weight": 1
 }

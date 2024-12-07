@@ -18,11 +18,11 @@ object LootTableMixinImpl {
     fun getRandomItems(
         context: LootContext,
         defaultItems: ObjectArrayList<ItemStack>,
-    ): ObjectArrayList<ItemStack>? {
+    ): ObjectArrayList<ItemStack> {
         val player = context.getParamOrNull(LootContextParams.THIS_ENTITY)
-        if (player !is Player) return null
-        if (player.isCreative) return null
-        if (!player.mainHandItem.hasEnchantment(context.level, ModEnchantments.TELEKINESIS)) return null
+        if (player !is Player) return defaultItems
+        if (player.isCreative) return defaultItems
+        if (!player.mainHandItem.hasEnchantment(context.level, ModEnchantments.TELEKINESIS)) return defaultItems
 
         val leftItems = defaultItems.map {
             player.inventory.add(it)

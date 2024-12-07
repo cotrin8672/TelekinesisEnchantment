@@ -1,0 +1,35 @@
+plugins {
+    alias(libs.plugins.architectury)
+    alias(libs.plugins.loom)
+    alias(libs.plugins.kotlin)
+}
+
+architectury {
+    common("neoforge", "fabric")
+}
+
+loom {
+    silentMojangMappingsLicense()
+}
+
+base {
+    archivesName = "telekinesisenchantment-$project.name"
+}
+
+dependencies {
+    minecraft(libs.minecraft)
+    mappings loom.officialMojangMappings()
+
+    modImplementation(libs.fabric.loader)
+}
+
+java {
+    withSourcesJar()
+
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
+}
+
+tasks.withType(JavaCompile).configureEach {
+    it.options.release = 21
+}
