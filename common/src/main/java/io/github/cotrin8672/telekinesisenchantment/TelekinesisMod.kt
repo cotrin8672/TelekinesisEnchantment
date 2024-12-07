@@ -1,4 +1,4 @@
-package io.github.cotrin8672
+package io.github.cotrin8672.telekinesisenchantment
 
 import net.minecraft.resources.ResourceLocation
 

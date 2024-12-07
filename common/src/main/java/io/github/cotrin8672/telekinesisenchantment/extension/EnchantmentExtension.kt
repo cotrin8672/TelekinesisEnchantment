@@ -1,4 +1,4 @@
-package io.github.cotrin8672.extension
+package io.github.cotrin8672.telekinesisenchantment.extension
 
 import net.minecraft.resources.ResourceKey
 import net.minecraft.world.item.ItemStack

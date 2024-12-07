@@ -1,4 +1,4 @@
-package io.github.cotrin8672.extension
+package io.github.cotrin8672.telekinesisenchantment.extension
 
 import net.minecraft.world.phys.Vec3
 

@@ -1,6 +1,6 @@
-package io.github.cotrin8672.mixin;
+package io.github.cotrin8672.telekinesisenchantment.mixin;
 
-import io.github.cotrin8672.mixinimpl.LootTableMixinImpl;
+import io.github.cotrin8672.telekinesisenchantment.mixinimpl.LootTableMixinImpl;
 import it.unimi.dsi.fastutil.objects.ObjectArrayList;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ItemStack;

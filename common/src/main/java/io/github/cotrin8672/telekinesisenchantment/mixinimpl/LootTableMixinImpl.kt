@@ -1,9 +1,9 @@
-package io.github.cotrin8672.mixinimpl
+package io.github.cotrin8672.telekinesisenchantment.mixinimpl
 
-import io.github.cotrin8672.extension.hasEnchantment
-import io.github.cotrin8672.extension.plus
-import io.github.cotrin8672.extension.times
-import io.github.cotrin8672.registry.ModEnchantments
+import io.github.cotrin8672.telekinesisenchantment.extension.hasEnchantment
+import io.github.cotrin8672.telekinesisenchantment.extension.plus
+import io.github.cotrin8672.telekinesisenchantment.extension.times
+import io.github.cotrin8672.telekinesisenchantment.registry.ModEnchantments
 import it.unimi.dsi.fastutil.objects.ObjectArrayList
 import net.minecraft.client.Minecraft
 import net.minecraft.core.particles.ParticleTypes

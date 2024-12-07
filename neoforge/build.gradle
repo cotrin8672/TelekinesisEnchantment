@@ -15,7 +15,8 @@ loom {
 }
 
 base {
-    archivesName = "telekinesisenchantment-$project.name"
+    archivesName = rootProject.modId
+    version = "${rootProject.modVersion}-mc${libs.versions.minecraft.get()}-${project.name}"
 }
 
 configurations {

@@ -1,4 +1,4 @@
-package io.github.cotrin8672.fabric.client
+package io.github.cotrin8672.telekinesisenchantment.fabric.client
 
 import net.fabricmc.api.ClientModInitializer
 

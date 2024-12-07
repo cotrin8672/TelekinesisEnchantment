@@ -1,6 +1,6 @@
-package io.github.cotrin8672.fabric
+package io.github.cotrin8672.telekinesisenchantment.fabric
 
-import io.github.cotrin8672.TelekinesisMod.init
+import io.github.cotrin8672.telekinesisenchantment.TelekinesisMod.init
 import net.fabricmc.api.ModInitializer
 
 class TelekinesisModFabric : ModInitializer {
